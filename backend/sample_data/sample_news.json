@@ -1,0 +1,288 @@
+{
+  "news": [
+    {
+      "title": "Two arrested in connection with ATM robbery in South Delhi",
+      "description": "Delhi Police arrested two suspects within 24 hours of an ATM robbery in Greater Kailash. The accused were identified through CCTV footage and Rs 2.5 lakh was recovered.",
+      "city": "Delhi",
+      "source": "Times of India",
+      "published_at": "2025-12-02T14:30:00"
+    },
+    {
+      "title": "Heavy fog disrupts flight operations at IGI Airport",
+      "description": "Dense fog conditions led to delays and diversions of over 50 flights at Indira Gandhi International Airport. Visibility dropped to below 50 meters in early morning hours.",
+      "city": "Delhi",
+      "source": "Hindustan Times",
+      "published_at": "2025-12-02T08:15:00"
+    },
+    {
+      "title": "Farmers begin protest march towards Delhi borders",
+      "description": "Thousands of farmers from Punjab and Haryana started marching towards Delhi demanding better MSP for crops. Police have increased security at border checkpoints.",
+      "city": "Delhi",
+      "source": "NDTV",
+      "published_at": "2025-12-01T16:45:00"
+    },
+    {
+      "title": "Minor fire breaks out at Chandni Chowk market, no injuries reported",
+      "description": "A small fire broke out at a cloth shop in Chandni Chowk market due to electrical short circuit. Fire brigade brought the situation under control within an hour.",
+      "city": "Delhi",
+      "source": "Indian Express",
+      "published_at": "2025-12-01T11:20:00"
+    },
+    {
+      "title": "Delhi Metro announces new route connecting airport to city center",
+      "description": "DMRC unveiled plans for a new express metro line that will reduce travel time from IGI Airport to Connaught Place to just 20 minutes. Construction begins next month.",
+      "city": "Delhi",
+      "source": "Economic Times",
+      "published_at": "2025-11-30T10:00:00"
+    },
+    {
+      "title": "Chain snatching incidents rise in North Delhi areas",
+      "description": "Police report a 15% increase in chain snatching cases in North Delhi localities including Rohini and Pitampura. Residents urged to remain vigilant.",
+      "city": "Delhi",
+      "source": "Delhi Times",
+      "published_at": "2025-11-30T18:30:00"
+    },
+    {
+      "title": "Air quality remains in 'severe' category across Delhi NCR",
+      "description": "Delhi's AQI crossed 400 mark for the third consecutive day. Authorities have implemented GRAP Stage-III restrictions including ban on construction activities.",
+      "city": "Delhi",
+      "source": "India Today",
+      "published_at": "2025-11-29T09:00:00"
+    },
+    {
+      "title": "Cultural festival inaugurated at India Gate lawns",
+      "description": "The annual winter cultural festival was inaugurated at India Gate featuring performances from artists across the country. The event will continue for two weeks.",
+      "city": "Delhi",
+      "source": "The Hindu",
+      "published_at": "2025-11-28T17:00:00"
+    },
+
+    {
+      "title": "Local train services disrupted due to technical fault at Dadar",
+      "description": "Central Railway services on the main line were affected for two hours due to a signal failure near Dadar station. Thousands of commuters faced delays during rush hour.",
+      "city": "Mumbai",
+      "source": "Mumbai Mirror",
+      "published_at": "2025-12-02T09:45:00"
+    },
+    {
+      "title": "Three injured in road accident on Western Express Highway",
+      "description": "A speeding car lost control and hit the divider on Western Express Highway near Goregaon. Three occupants sustained minor injuries and were taken to nearby hospital.",
+      "city": "Mumbai",
+      "source": "Mid-Day",
+      "published_at": "2025-12-02T07:30:00"
+    },
+    {
+      "title": "Mumbai Police bust major drug racket, 5 arrested",
+      "description": "The Anti-Narcotics Cell seized drugs worth Rs 15 crore and arrested five people including a foreign national in a raid at Andheri. Investigation is ongoing.",
+      "city": "Mumbai",
+      "source": "Times of India",
+      "published_at": "2025-12-01T20:15:00"
+    },
+    {
+      "title": "Heavy rainfall expected in Mumbai over the weekend",
+      "description": "IMD has issued a yellow alert for Mumbai predicting heavy rainfall over the next three days. Citizens advised to avoid unnecessary travel during peak rainfall hours.",
+      "city": "Mumbai",
+      "source": "Indian Express",
+      "published_at": "2025-12-01T12:00:00"
+    },
+    {
+      "title": "New coastal road stretch opens for public",
+      "description": "The southern stretch of Mumbai's Coastal Road from Marine Drive to Worli was inaugurated. The route is expected to reduce travel time significantly for South Mumbai commuters.",
+      "city": "Mumbai",
+      "source": "Hindustan Times",
+      "published_at": "2025-11-30T11:30:00"
+    },
+    {
+      "title": "Pickpocketing gang busted at Churchgate station",
+      "description": "Railway Police arrested a four-member gang involved in pickpocketing at Churchgate and nearby stations. Multiple stolen phones and wallets were recovered.",
+      "city": "Mumbai",
+      "source": "DNA India",
+      "published_at": "2025-11-30T16:45:00"
+    },
+    {
+      "title": "Marathon event to promote tourism in Mumbai this Sunday",
+      "description": "The Mumbai Tourism Marathon will be held this Sunday covering iconic landmarks including Gateway of India and Marine Drive. Over 10,000 participants have registered.",
+      "city": "Mumbai",
+      "source": "Free Press Journal",
+      "published_at": "2025-11-29T14:00:00"
+    },
+    {
+      "title": "Power outage affects parts of Navi Mumbai for 4 hours",
+      "description": "Several areas in Navi Mumbai experienced power cuts due to maintenance work at the substation. Electricity was restored by evening.",
+      "city": "Mumbai",
+      "source": "Maharashtra Times",
+      "published_at": "2025-11-28T19:30:00"
+    },
+
+    {
+      "title": "IT professionals protest against sudden layoffs in Electronic City",
+      "description": "Hundreds of IT employees staged a peaceful protest outside a major tech company's campus in Electronic City following announcement of mass layoffs. Traffic was affected.",
+      "city": "Bangalore",
+      "source": "Deccan Herald",
+      "published_at": "2025-12-02T15:00:00"
+    },
+    {
+      "title": "Water supply disrupted in several areas due to pipeline burst",
+      "description": "A major pipeline burst near Koramangala has affected water supply to several localities. BWSSB teams are working to repair the damage. Supply expected to resume by tomorrow.",
+      "city": "Bangalore",
+      "source": "Bangalore Mirror",
+      "published_at": "2025-12-02T10:30:00"
+    },
+    {
+      "title": "Two-wheeler theft gang arrested in Whitefield",
+      "description": "Whitefield Police arrested a gang of four involved in stealing two-wheelers across East Bangalore. Twelve stolen vehicles were recovered from their possession.",
+      "city": "Bangalore",
+      "source": "Times of India",
+      "published_at": "2025-12-01T18:00:00"
+    },
+    {
+      "title": "Pleasant weather continues in Bangalore with mild showers",
+      "description": "Bangalore continues to enjoy pleasant weather with temperatures ranging between 18-26°C. Light showers expected in some areas during evening hours.",
+      "city": "Bangalore",
+      "source": "The Hindu",
+      "published_at": "2025-12-01T08:00:00"
+    },
+    {
+      "title": "New metro line connecting airport inaugurated",
+      "description": "Chief Minister inaugurated the new Namma Metro line connecting Kempegowda International Airport to the city center. Travel time reduced to 45 minutes from 2 hours.",
+      "city": "Bangalore",
+      "source": "Indian Express",
+      "published_at": "2025-11-30T12:30:00"
+    },
+    {
+      "title": "Food poisoning cases reported from restaurant in Indiranagar",
+      "description": "At least 15 people fell ill after eating at a popular restaurant in Indiranagar. Health officials have sealed the establishment pending investigation.",
+      "city": "Bangalore",
+      "source": "Deccan Chronicle",
+      "published_at": "2025-11-30T21:00:00"
+    },
+    {
+      "title": "Startup ecosystem in Bangalore receives global recognition",
+      "description": "Bangalore has been ranked among the top 10 startup ecosystems globally according to a new report. The city hosts over 40% of India's unicorn startups.",
+      "city": "Bangalore",
+      "source": "Economic Times",
+      "published_at": "2025-11-29T11:00:00"
+    },
+    {
+      "title": "Traffic congestion worsens near Silk Board junction",
+      "description": "Despite ongoing metro construction, traffic near Silk Board junction continues to be a major concern. Commuters report delays of up to 2 hours during peak time.",
+      "city": "Bangalore",
+      "source": "Bangalore Times",
+      "published_at": "2025-11-28T17:30:00"
+    },
+
+    {
+      "title": "Cyclone alert issued for Tamil Nadu coast",
+      "description": "IMD has issued a cyclone warning for the Tamil Nadu coast including Chennai. The depression in Bay of Bengal is expected to intensify. Fishermen advised not to venture into sea.",
+      "city": "Chennai",
+      "source": "The Hindu",
+      "published_at": "2025-12-02T11:00:00"
+    },
+    {
+      "title": "Heavy waterlogging reported in Chennai suburbs after overnight rain",
+      "description": "Several low-lying areas in Chennai suburbs including Velachery and Tambaram experienced waterlogging following heavy overnight rainfall. Civic workers deployed for drainage.",
+      "city": "Chennai",
+      "source": "Times of India",
+      "published_at": "2025-12-02T08:30:00"
+    },
+    {
+      "title": "Marina Beach cleaning drive gets massive public participation",
+      "description": "Over 5,000 volunteers participated in the Marina Beach cleanup drive organized by environmental groups. Around 3 tons of plastic waste was collected.",
+      "city": "Chennai",
+      "source": "New Indian Express",
+      "published_at": "2025-12-01T17:00:00"
+    },
+    {
+      "title": "Robbery at jewelry store in T Nagar, police launch manhunt",
+      "description": "Armed robbers looted gold jewelry worth Rs 50 lakh from a store in T Nagar. CCTV footage shows three masked men entering the store. Investigation underway.",
+      "city": "Chennai",
+      "source": "Deccan Chronicle",
+      "published_at": "2025-12-01T14:30:00"
+    },
+    {
+      "title": "Chennai airport to get new international terminal by 2026",
+      "description": "The expansion of Chennai International Airport is on track with the new terminal expected to be operational by 2026. Capacity will increase to handle 35 million passengers.",
+      "city": "Chennai",
+      "source": "Hindu Business Line",
+      "published_at": "2025-11-30T10:00:00"
+    },
+    {
+      "title": "Auto rickshaw strike affects commuters across Chennai",
+      "description": "Auto rickshaw drivers went on a day-long strike demanding revision of fare structure. Commuters faced difficulties reaching workplaces and stations.",
+      "city": "Chennai",
+      "source": "India Today",
+      "published_at": "2025-11-30T09:15:00"
+    },
+    {
+      "title": "Famous Mylapore temple festival begins with grand procession",
+      "description": "The annual Panguni festival at Kapaleeshwarar Temple began with a grand chariot procession. Thousands of devotees participated in the religious celebration.",
+      "city": "Chennai",
+      "source": "Tamil Nadu News",
+      "published_at": "2025-11-29T18:00:00"
+    },
+    {
+      "title": "Minor tremor felt in parts of Chennai, no damage reported",
+      "description": "Residents in some parts of Chennai reported feeling a mild tremor early morning. Seismologists recorded it at 3.2 magnitude. No damage or injuries reported.",
+      "city": "Chennai",
+      "source": "NDTV",
+      "published_at": "2025-11-28T06:45:00"
+    },
+
+    {
+      "title": "IT corridor sees surge in office space demand",
+      "description": "Hyderabad's IT corridor HITEC City has witnessed a 30% increase in office space demand this quarter. Several global companies are expanding their presence in the city.",
+      "city": "Hyderabad",
+      "source": "Economic Times",
+      "published_at": "2025-12-02T12:00:00"
+    },
+    {
+      "title": "Woman harassed on city bus, accused arrested within hours",
+      "description": "Hyderabad Police arrested a man within three hours of receiving a complaint of harassment on a city bus. The swift action was praised by women's groups.",
+      "city": "Hyderabad",
+      "source": "Deccan Chronicle",
+      "published_at": "2025-12-02T16:30:00"
+    },
+    {
+      "title": "Sudden hailstorm surprises residents in old city areas",
+      "description": "Parts of Hyderabad's old city experienced an unexpected hailstorm lasting about 15 minutes. Minor damage to vehicles and crops in surrounding areas reported.",
+      "city": "Hyderabad",
+      "source": "Times of India",
+      "published_at": "2025-12-01T19:45:00"
+    },
+    {
+      "title": "Traffic diversions announced for G20 delegates visit",
+      "description": "Hyderabad Traffic Police announced temporary diversions in Banjara Hills and Jubilee Hills areas for the visit of G20 delegates. Commuters advised to plan accordingly.",
+      "city": "Hyderabad",
+      "source": "The Hindu",
+      "published_at": "2025-12-01T09:00:00"
+    },
+    {
+      "title": "New flyover inaugurated to ease traffic at Paradise junction",
+      "description": "The long-awaited flyover at Paradise junction was opened to traffic. The structure is expected to ease congestion at one of the busiest intersections in the city.",
+      "city": "Hyderabad",
+      "source": "Telangana Today",
+      "published_at": "2025-11-30T15:00:00"
+    },
+    {
+      "title": "Fire breaks out at chemical factory in outskirts, 2 injured",
+      "description": "A fire broke out at a chemical manufacturing unit in Jeedimetla industrial area. Two workers sustained burn injuries. Fire services brought the blaze under control.",
+      "city": "Hyderabad",
+      "source": "New Indian Express",
+      "published_at": "2025-11-30T22:30:00"
+    },
+    {
+      "title": "Hyderabad Metro records highest single-day ridership",
+      "description": "Hyderabad Metro Rail recorded its highest ever single-day ridership of 5.5 lakh passengers on Sunday. Officials attribute this to weekend shopping and events.",
+      "city": "Hyderabad",
+      "source": "Mint",
+      "published_at": "2025-11-29T20:00:00"
+    },
+    {
+      "title": "Heritage walk through old Hyderabad gains popularity among tourists",
+      "description": "The guided heritage walk covering Charminar, Mecca Masjid, and Laad Bazaar is attracting tourists from across the globe. Bookings have increased by 50% this month.",
+      "city": "Hyderabad",
+      "source": "Travel India",
+      "published_at": "2025-11-28T14:00:00"
+    }
+  ]
+}

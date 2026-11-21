@@ -1,0 +1,154 @@
+@import "tailwindcss";
+@import "tw-animate-css";
+@import "@fontsource-variable/public-sans";
+
+@custom-variant dark (&:is(.dark *));
+
+/* ---------------------------------------------------------------------------
+   TravelSafe design tokens (shadcn/ui variable names + domain colours)
+
+   Canvas: cool blue-grey; surfaces: white; text and primary actions: deep
+   navy; accent: confident blue, with teal as the second chart series.
+   Semantic levels are muted so a page of "Low" doesn't shout and "High"
+   stays readable rather than alarming. "Not assessed" has its own slate
+   colour and a hatch pattern – it is never drawn as an empty (= safe) bar.
+   --------------------------------------------------------------------------- */
+:root {
+  --radius: 0.75rem;
+
+  --background: #edf1f6;
+  --foreground: #0e1a33;
+  --card: #ffffff;
+  --card-foreground: #0e1a33;
+  --popover: #ffffff;
+  --popover-foreground: #0e1a33;
+  --primary: #0e1a33;
+  --primary-foreground: #ffffff;
+  --secondary: #f2f5f9;
+  --secondary-foreground: #1b2945;
+  --muted: #f2f5f9;
+  --muted-foreground: #5b667a;
+  --accent: #e8effc;
+  --accent-foreground: #173f9e;
+  --destructive: #b42b24;
+  --border: #e0e6ee;
+  --input: #d5dde8;
+  --ring: #2459d6;
+
+  --brand: #2459d6;
+  --brand-soft: #e8effc;
+  --teal: #0f8a84;
+  --teal-soft: #e2f3f2;
+
+  --level-low: #2e7d5b;
+  --level-low-soft: #e3f1ea;
+  --level-guarded: #a5710b;
+  --level-guarded-soft: #f8efd9;
+  --level-elevated: #c4562a;
+  --level-elevated-soft: #fae8de;
+  --level-high: #b42b24;
+  --level-high-soft: #f8e0de;
+  --level-unknown: #7c879b;
+  --level-unknown-soft: #eef1f5;
+
+  --sidebar: #ffffff;
+  --sidebar-foreground: #1b2945;
+  --sidebar-accent: #eef3fd;
+  --sidebar-accent-foreground: #173f9e;
+  --sidebar-border: #e0e6ee;
+}
+
+@theme inline {
+  --font-sans: "Public Sans Variable", ui-sans-serif, system-ui, sans-serif;
+
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+
+  --color-brand: var(--brand);
+  --color-brand-soft: var(--brand-soft);
+  --color-teal: var(--teal);
+  --color-teal-soft: var(--teal-soft);
+  --color-low: var(--level-low);
+  --color-low-soft: var(--level-low-soft);
+  --color-guarded: var(--level-guarded);
+  --color-guarded-soft: var(--level-guarded-soft);
+  --color-elevated: var(--level-elevated);
+  --color-elevated-soft: var(--level-elevated-soft);
+  --color-high: var(--level-high);
+  --color-high-soft: var(--level-high-soft);
+  --color-unknown: var(--level-unknown);
+  --color-unknown-soft: var(--level-unknown-soft);
+
+  --color-sidebar: var(--sidebar);
+  --color-sidebar-foreground: var(--sidebar-foreground);
+  --color-sidebar-accent: var(--sidebar-accent);
+  --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
+  --color-sidebar-border: var(--sidebar-border);
+
+  --radius-sm: calc(var(--radius) - 6px);
+  --radius-md: calc(var(--radius) - 4px);
+  --radius-lg: calc(var(--radius) - 2px);
+  --radius-xl: var(--radius);
+
+  --shadow-card: 0 1px 2px rgb(14 26 51 / 0.04), 0 1px 1px rgb(14 26 51 / 0.02);
+  --shadow-pop: 0 12px 32px rgb(14 26 51 / 0.14);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  html {
+    @apply bg-background text-foreground;
+    font-family: var(--font-sans);
+    -webkit-font-smoothing: antialiased;
+    font-feature-settings: "cv11", "ss01";
+  }
+  body {
+    @apply min-h-screen;
+  }
+  :focus-visible {
+    outline: 2px solid var(--ring);
+    outline-offset: 2px;
+  }
+}
+
+.tabular {
+  font-variant-numeric: tabular-nums;
+}
+
+/* "Not assessed" – hatched, so missing data never reads as an empty (safe) bar. */
+.hatch {
+  background-color: var(--level-unknown-soft);
+  background-image: repeating-linear-gradient(-45deg, rgb(124 135 155 / 0.28) 0 2px, transparent 2px 7px);
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.001ms !important;
+    transition-duration: 0.001ms !important;
+  }
+}
+
+/* Recharts: keep focus outlines off SVG surfaces (keyboard focus is on the data table toggle instead). */
+.recharts-wrapper .recharts-surface:focus {
+  outline: none;
+}
